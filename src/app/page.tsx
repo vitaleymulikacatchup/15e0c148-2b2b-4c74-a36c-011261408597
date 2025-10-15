@@ -36,7 +36,7 @@ export default function Home() {
           buttonVariant="text-stagger"
         />
       </div>
-      <div id="hero" data-section="hero" className="scroll-mt-24 bg-blue-50 text-blue-900">
+      <div id="hero" data-section="hero" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
           <HeroSplit
             title="Build Better Products"
@@ -50,7 +50,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="about" data-section="about" className="scroll-mt-24 bg-blue-50 text-blue-900">
+      <div id="about" data-section="about" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
           <TextSplitAbout
             title="About Us"
@@ -62,7 +62,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="features" data-section="features" className="scroll-mt-24 bg-blue-50 text-blue-900">
+      <div id="features" data-section="features" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
           <FeatureCardOne
             features={[
@@ -73,7 +73,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="pricing" data-section="pricing" className="scroll-mt-24 bg-blue-50 text-blue-900">
+      <div id="pricing" data-section="pricing" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
           <PricingCardOne
             plans={[
@@ -84,7 +84,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="testimonials" data-section="testimonials" className="scroll-mt-24 bg-blue-50 text-blue-900">
+      <div id="testimonials" data-section="testimonials" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
           <TestimonialCardTwo
             testimonials={[
@@ -94,17 +94,17 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="contact" data-section="contact" className="scroll-mt-24 bg-blue-50 text-blue-900">
+      <div id="contact" data-section="contact" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
           <ContactCenter
             tag="Newsletter"
             title="Stay updated with our latest news"
             description="Subscribe to our newsletter for weekly updates and exclusive content."
-            onSubmit={email => console.log(email)}
+            onSubmit={(email) => console.log(email)}
           />
         </div>
       </div>
-      <div id="footer" data-section="footer" className="scroll-mt-24 bg-blue-50 text-blue-900">
+      <div id="footer" data-section="footer" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6">
           <FooterBase
             columns={[
