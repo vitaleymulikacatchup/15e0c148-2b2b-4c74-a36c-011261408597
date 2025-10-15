@@ -77,8 +77,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6">
           <PricingCardOne
             plans={[
-              { id: 'basic', price: '$29/mo', subtitle: 'Great for small teams', features: ['5 users', 'Basic support'], badge: 'Basic', badgeIcon: '' },
-              { id: 'pro', price: '$99/mo', subtitle: 'For growing businesses', features: ['10 users', 'Premium support'], badge: 'Pro', badgeIcon: '' }
+              { id: 'basic', price: '$29/mo', subtitle: 'Great for small teams', features: ['5 users', 'Basic support'], badge: 'Basic', badgeIcon: undefined },
+              { id: 'pro', price: '$99/mo', subtitle: 'For growing businesses', features: ['10 users', 'Premium support'], badge: 'Pro', badgeIcon: undefined }
             ]}
             title="Choose Your Plan"
           />
