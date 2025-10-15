@@ -75,7 +75,7 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   title: "SaaS Brand – Innovative Solutions for Your Business",
-  description: "Discover powerful tools and features to enhance your business productivity. Subscribe for updates.",
+  description: "Discover powerful tools and features toenhance your business productivity. Subscribe for updates.",
   keywords: "SaaS, software solutions, productivity tools, business growth",
   openGraph: {
     title: "SaaS Brand – Innovative Solutions for Your Business",
@@ -102,7 +102,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${interTight.variable} ${playfairDisplay.variable} ${roboto.variable} ${openSans.variable} ${lato.variable} ${montserrat.variable} ${poppins.variable} ${raleway.variable} ${ubuntu.variable} ${nunito.variable} antialiased`}
+        className={`$ {interTight.variable} $ {playfairDisplay.variable} $ {roboto.variable} $ {openSans.variable} $ {lato.variable} $ {montserrat.variable} $ {poppins.variable} $ {raleway.variable} $ {ubuntu.variable} antialiased`}
       >
         {children}
       
